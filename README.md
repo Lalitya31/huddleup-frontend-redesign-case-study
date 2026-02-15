@@ -20,3 +20,28 @@ The redesign aimed to:
 - standardize typography hierarchy
 - provide interaction feedback for user actions
 - maintain full compatibility with existing backend logic
+
+# Approach
+Changes were restricted to the frontend presentation layer and included:
+- layout restructuring
+- spacing system refinement
+- typography hierarchy adjustments
+- card elevation and surface differentiation
+- hover and navigation interaction feedback
+- centralized design tokens for styling consistency
+- No API contracts or functional logic were modified during this process.
+
+# Tradeoffs
+1. avoided introducing animation-heavy transitions to prevent performance overhead
+2. retained existing routing logic to ensure merge safety
+3. prioritized interaction clarity over stylistic complexity
+
+# Impact
+While no backend functionality was changed, the redesign improved:
+- visual clarity across discussion threads
+- discoverability of upload workflows
+- scanability of content grids
+- interaction confidence through feedback states
+
+## Related Pull Request
+Merged PR: https://github.com/AnushSingla/HuddleUp/pull/79
